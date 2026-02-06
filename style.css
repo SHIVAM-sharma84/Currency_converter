@@ -1,0 +1,97 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+body{
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 219, 233, 0.95) 100%);
+}
+h2{
+    text-align: center;
+}
+.main{
+    margin-top: 3rem;
+    gap: 2rem;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.converter{
+    border: 0.8rem solid lightgray;
+    outline-offset: -4px;
+    min-height:30rem;
+    width: 21rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem inset grey;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.converter h2{
+    font-size: 2rem;
+}
+.convert{
+    height: 2rem;
+    margin-top: 1.5rem;
+}
+input , button, select{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+input{
+    margin-top: 1.5rem;
+    border: 0.2rem solid lightgray;
+    padding: 1rem 0rem 1rem 0rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    font-size: 20px;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+select{
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+
+button{
+    height: 3rem;
+    border: 0.2rem solid lightgray;
+    border-radius: 2rem;
+    font-size: 1.3rem;
+    background-color: #3F5EFB;
+    color: azure;
+}
+
+.From , .To{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.3rem;
+    border: 0.2rem solid lightgray;
+    border-radius: 1rem;
+}
+h3{
+    margin-top: 0.5rem;
+    text-align: center;
+    color: ;
+    
+}
+
+.heading{
+    display: flex;
+    margin-top: 2rem;
+    gap: 10rem;
+    align-items:center ;
+
+}
+.head{
+    
+    float: left;
+}

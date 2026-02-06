@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="container">
+    <div class="converter">
+    <h1 id="topic">Currency Converter</h1>
+    <div class="main">
+        
+        <form action="">
+            <h2 class="head">Amount</h2>
+            <div class="amount">
+                <input type="number" id="amount" value="100">
+            </div>
+            <div class="heading">
+            <h3>From</h3>
+            <h3>To</h3>
+            </div>
+            <div class="dropdown">
+                <div class="From">
+                    <img src="https://flagsapi.com/US/flat/64.png" alt="" id="flage">
+                    <select name="from" id="cun_1"></select> 
+                </div>
+                <img src="https://cdn-icons-png.flaticon.com/512/9053/9053198.png " alt="" class="convert">
+                <div class="To">
+                    <img src="https://flagsapi.com/IN/flat/64.png" alt="" id="flage">
+                    <select name="to" id="cun_2">
+                    </select>
+                </div>
+            </div>
+            <br>
+            <h3 id="change_rate"></h3>
+            <br>
+            <button >Get Exchange Rate</button>
+        </form>
+
+    </div>
+
+
+    </div>
+    </div>
+    <script src="codes.js"></script>
+    <script src="data.js"></script>
+</body>
+</html>
